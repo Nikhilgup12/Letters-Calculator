@@ -1,0 +1,53 @@
+/* Write your code here. */
+.main-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+.image {
+  height: 350px;
+  width: 350px;
+}
+.letter {
+  margin-top: 50px;
+  width: 300px;
+}
+.main-heading {
+  color: #ffffffff;
+  font-size: 25px;
+  font-family: Roboto;
+}
+.phrase {
+  color: #e4e7eb;
+  font-size: 14px;
+}
+.input {
+  border-width: 1px;
+  border-color: #e4e7eb;
+  padding: 13px;
+  height: 20px;
+  outline: none;
+  border-radius: 8px;
+  color: #e4e7eb;
+  font-weight: bold;
+  background-color: transparent;
+}
+.button {
+  height: 34px;
+  border-radius: 6px;
+  border-width: 0px;
+  outline: none;
+  color: #219a6f;
+  margin-top: 10px;
+  width: 120px;
+  font-size: 13px;
+  font-weight: bold;
+}
